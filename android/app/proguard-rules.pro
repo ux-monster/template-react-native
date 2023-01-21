@@ -9,5 +9,16 @@
 
 # Add any project specific keep options here:
 
+# react-native-reanimated
 -keep class com.swmansion.reanimated.** { *; }
 -keep class com.facebook.react.turbomodule.** { *; }
+
+# react-native-device-info
+# If you want to use Install Referrer tracking, you will need to add this config to your Proguard config
+-keepclassmembers class com.android.installreferrer.api.** {
+  *;
+}
+
+# react-native-device-info
+# If you are experiencing issues with hasGms() on your release apks, please add the following rule to your Proguard config
+-keep class com.google.android.gms.common.** {*;}

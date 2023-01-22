@@ -218,7 +218,6 @@ android {
             keyPassword 'android'
         }
     }
-    namespace 'com.template'
     buildTypes {
         debug {
             signingConfig signingConfigs.debug

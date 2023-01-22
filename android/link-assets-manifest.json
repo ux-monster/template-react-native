@@ -2,22 +2,6 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assets/fonts/BalsamiqSans-Bold.ttf",
-      "sha1": "032b9d8a92cecf5da874a444489ef6a9a0332d79"
-    },
-    {
-      "path": "src/assets/fonts/BalsamiqSans-BoldItalic.ttf",
-      "sha1": "2efc818f2cb12919e92933ab2fe197348ec5854a"
-    },
-    {
-      "path": "src/assets/fonts/BalsamiqSans-Italic.ttf",
-      "sha1": "dbb00b190b256f93c56a491010a4e706eb33bb53"
-    },
-    {
-      "path": "src/assets/fonts/BalsamiqSans-Regular.ttf",
-      "sha1": "91d86aab9a45109a56247f49599f7d4f0ad6726d"
-    },
-    {
       "path": "src/assets/fonts/NotoSansKR-Black.otf",
       "sha1": "0115cc2afb97b3cf47f59c6f6f50e580b9758bc9"
     },

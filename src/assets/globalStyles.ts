@@ -1,4 +1,5 @@
 import {Dimensions} from 'react-native';
+import {isTablet} from 'react-native-device-info';
 
 export const colors = {
   primary: '#EC8B57',
@@ -37,12 +38,16 @@ export const basicDimensions = {
   width: 360,
 };
 
-export const hp = (value: number) =>
-  Math.floor(
+export const hp = (mobileValue: number, tabletValue?: number) => {
+  const value = isTablet() && tabletValue ? tabletValue : mobileValue;
+  return Math.floor(
     Dimensions.get('screen').height * (1 / basicDimensions.height) * value,
   );
+};
 
-export const wp = (value: number) =>
-  Math.floor(
+export const wp = (mobileValue: number, tabletValue?: number) => {
+  const value = isTablet() && tabletValue ? tabletValue : mobileValue;
+  return Math.floor(
     Dimensions.get('screen').width * (1 / basicDimensions.width) * value,
   );
+};

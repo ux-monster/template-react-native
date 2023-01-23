@@ -10,11 +10,8 @@ module.exports = {
     getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
-        inlineRequires: false,
+        inlineRequires: true,
       },
     }),
-  },
-  resolver: {
-    resolverMainFields: ['sbmodern', 'react-native', 'browser', 'main'],
   },
 };

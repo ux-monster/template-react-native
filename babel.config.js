@@ -27,6 +27,5 @@ module.exports = {
       },
     ],
     'react-native-reanimated/plugin',
-    ['babel-plugin-react-docgen-typescript', {exclude: 'node_modules'}],
   ],
 };

@@ -1,5 +1,5 @@
 {
-  "name": "mobile-ux",
+  "name": "@ux-monster/mobile-ux",
   "version": "0.0.1",
   "description": "Template for custom library in npm",
   "main": "dist/index.js",

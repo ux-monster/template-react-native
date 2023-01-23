@@ -50,7 +50,8 @@
       "node"
     ],
     "modulePathIgnorePatterns": [
-      "./design-system"
+      "./design-system",
+      "./mobile-ux"
     ]
   }
 }

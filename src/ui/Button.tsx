@@ -1,12 +1,12 @@
 import Text from '@/ui/Text';
 import React from 'react';
-import RN from 'react-native';
+import RN, {TouchableHighlightProps} from 'react-native';
 
-type Props = {};
+type Props = TouchableHighlightProps & {};
 
 const Button = (props: Props) => {
   return (
-    <RN.TouchableHighlight>
+    <RN.TouchableHighlight {...props}>
       <Text>Button</Text>
     </RN.TouchableHighlight>
   );

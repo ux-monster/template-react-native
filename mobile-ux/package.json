@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc",
-    "build:webpack": "",
-    "refresh": "sh refresh.sh"
+    "build": "sh ./bin/build.sh",
+    "refresh": "sh ./bin/refresh.sh",
+    "deploy": "sh ./bin/deploy.sh"
   },
   "repository": {
     "type": "git",

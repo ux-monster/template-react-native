@@ -1,0 +1,1 @@
+yarn publish --access=public

@@ -1,14 +1,15 @@
 {
-  "name": "template",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@ux-monster/mobile-ux",
+  "version": "0.0.5",
+  "main": "src/index.ts",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "asset": "npx react-native-asset"
+    "asset": "npx react-native-asset",
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/index.ts src/components -d dist --copy-files"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.1",
@@ -22,6 +23,7 @@
     "react-native-screens": "^3.18.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",

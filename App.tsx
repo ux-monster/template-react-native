@@ -1,4 +1,5 @@
-import BottomSheet from '@/components/BottomSheet';
+// import BottomSheet from '@/components/BottomSheet';
+import {BottomSheet} from '@ux-monster/mobile-ux';
 import React, {useState} from 'react';
 import {
   SafeAreaView,

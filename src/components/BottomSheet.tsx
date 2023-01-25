@@ -1,10 +1,5 @@
-import React, {useState} from 'react';
-import {
-  Dimensions,
-  KeyboardAvoidingView,
-  TouchableOpacity,
-  useWindowDimensions,
-} from 'react-native';
+import React from 'react';
+import {TouchableOpacity, useWindowDimensions} from 'react-native';
 import {StyleSheet, View} from 'react-native';
 import Animated, {
   runOnJS,
@@ -17,8 +12,6 @@ import {
   GestureHandlerRootView,
   PanGestureHandler,
 } from 'react-native-gesture-handler';
-import TextInput from '@/ui/TextInput';
-import Text from '@/ui/Text';
 
 type Props = {
   onClosed: () => void;

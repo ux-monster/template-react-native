@@ -1,15 +1,6 @@
-// import BottomSheet from '@/components/BottomSheet';
-import {BottomSheet} from '@ux-monster/mobile-ux';
+import BottomSheet from '@/components/BottomSheet';
 import React, {useState} from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
-import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import {Text, TouchableOpacity, View} from 'react-native';
 
 const App = () => {
   const [visible, setVisible] = useState(false);
@@ -38,7 +29,5 @@ const App = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default App;

@@ -1,5 +1,5 @@
 {
-  "name": "@ux-monster/mobile-ux",
+  "name": "template-react-native",
   "version": "0.0.5",
   "main": "src/index.ts",
   "scripts": {
@@ -8,8 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "asset": "npx react-native-asset",
-    "publish:npm": "rm -rf dist && mkdir dist && babel src/index.ts src/components -d dist --copy-files"
+    "asset": "npx react-native-asset"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.1",

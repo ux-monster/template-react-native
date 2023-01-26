@@ -1,4 +1,4 @@
-import BottomSheet from '@/components/BottomSheet';
+import BottomSheet from '@components/BottomSheet';
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 

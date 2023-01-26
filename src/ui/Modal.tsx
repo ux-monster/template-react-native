@@ -1,6 +1,6 @@
 import Text from '@/ui/Text';
 import React from 'react';
-import RN from 'react-native';
+import * as RN from 'react-native';
 
 type Props = {};
 

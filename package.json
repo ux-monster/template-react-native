@@ -1,7 +1,6 @@
 {
   "name": "template-react-native",
   "version": "0.0.5",
-  "main": "src/index.ts",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,7 +8,7 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "asset": "npx react-native-asset",
-    "build": "tsc --project ./tsconfig.build.json"
+    "build": "sh ./bin/build.sh"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.1",

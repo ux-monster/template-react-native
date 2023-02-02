@@ -1,0 +1,19 @@
+{
+  "name": "template-react-native",
+  "version": "0.0.5",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc --project ./tsconfig.build.json"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "<=0.70.6",
+    "react-native-device-info": "^10.3.0",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-haptic-feedback": "^1.14.0",
+    "react-native-reanimated": "^2.14.4",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2"
+  }
+}
